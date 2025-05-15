@@ -1,0 +1,8 @@
+#!/bin/sh
+		#---- Write your command here------
+	
+	    ../build/CEPCScECAL /home/wangjx/HEP/CEPCScECAL_SML_Portable_update/CEPCScECAL/generate/mac/e-/120GeV/event_19.mac /home/wangjx/HEP/CEPC2023/Result_MC/generate_root/e-/120GeV/19.root
+	
+		#---- Write your command here------
+	
+	

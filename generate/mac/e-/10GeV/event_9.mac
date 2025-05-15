@@ -1,0 +1,32 @@
+
+	/control/verbose 0
+	/run/verbose 0
+	/event/verbose 0
+	
+	/mydet/generator fGParticleSource
+	/gps/particle e-
+	/gps/energy 10 GeV
+	/gps/direction 0 0 1
+		
+	# 设置高斯分布
+	# /gps/pos/type Beam
+	# /gps/pos/shape Ellipse
+	# /gps/pos/radius 10 cm
+	# /gps/pos/sigma_r 2. cm
+	# /gps/pos/centre -0.1846 0.7962  -60. cm
+	# /gps/pos/sigma_x 1.2954 cm
+	# /gps/pos/sigma_y 0.9838 cm
+
+	# 设置平面源的形状为正方形
+	/gps/pos/shape Square
+	/gps/pos/centre 0.0 0.0 0.0 cm
+	/gps/pos/halfx 10.0 cm
+	/gps/pos/halfy 10.0 cm
+	# 设置平面法向方向（此例中为沿 Z 轴）
+	/gps/pos/rot1 1 0 0
+	/gps/pos/rot2 0 1 0
+	
+	/gps/direction 0 0 1
+	/run/beamOn 1000
+
+	
